@@ -1,0 +1,33 @@
+<!DOCTYPE restaurant SYSTEM "restaurant.dtd">
+<restaurant>
+  <coordonnees>
+    <noms>Le Petit Bistrot</noms>
+    <adresse>123 Rue de la Paix</adresse>
+    <restaurateur>Jean Dupont</restaurateur>
+  </coordonnees>
+  <descriptions>
+    <texte>Le Petit Bistrot est un lieu chaleureux offrant une cuisine traditionnelle française.</texte>
+    <image url="http://example.com/images/bistrot.jpg" />
+  </descriptions>
+  <carte>
+    <plat>
+      <nom>Steak frites</nom>
+      <partie>plat</partie>
+      <prix>15 EUR</prix>
+      <description>Un classique revisité avec notre sauce spéciale.</description>
+    </plat>
+    <!-- Autres plats de la carte -->
+  </carte>
+  <menus>
+    <menu>
+      <titre>Menu du Chef</titre>
+      <description>Une sélection spéciale du chef pour les gourmets.</description>
+      <prix>35 EUR</prix>
+      <elements>
+        <element>Steak frites</element>
+        <!-- Autres éléments du menu -->
+      </elements>
+    </menu>
+    <!-- Autres menus -->
+  </menus>
+</restaurant>

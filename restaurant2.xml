@@ -1,0 +1,21 @@
+<!DOCTYPE restaurant SYSTEM "restaurant.dtd">
+<restaurant>
+  <coordonnees>
+    <noms>La Pizzeria Bella</noms>
+    <adresse>456 Avenue des Fleurs</adresse>
+    <restaurateur>Mario Rossi</restaurateur>
+  </coordonnees>
+  <descriptions>
+    <texte>La Pizzeria Bella vous propose une expérience authentique de pizzas italiennes.</texte>
+    <image url="http://example.com/images/pizzeria.jpg" />
+  </descriptions>
+  <carte>
+    <plat>
+      <nom>Pizza Margherita</nom>
+      <partie>plat</partie>
+      <prix>12 EUR</prix>
+      <description>La classique avec mozzarella, tomates et basilic frais.</description>
+    </plat>
+    <!-- Autres plats de la carte -->
+  </carte>
+</restaurant>

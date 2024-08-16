@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE restaurant SYSTEM "resto.dtd">
+<restaurant>
+    <coordonnees>
+        <nom>Le Gourmet</nom>
+        <adresse>123 Rue de Paris, 75001 Paris</adresse>
+        <restaurateur>Jean Dupont</restaurateur>
+    </coordonnees>
+    <description>
+        <paragraphe>Bienvenue au restaurant Le Gourmet. <important>Nous offrons une cuisine raffin&#xE9;e.</important></paragraphe>
+        <paragraphe>Voici notre menu.</paragraphe>
+    </description>
+    <carte>
+        <plat>
+            <partie>Entr&#xE9;e</partie>
+            <prix>12 EUR</prix>
+            <description>
+                <paragraphe> Salade de ch&#xE8;vre <important> chaud </important> </paragraphe> 
+            </description>
+        </plat>
+        <plat>
+            <partie>Plat</partie>
+            <prix>25 EUR</prix>
+            <description>
+                <paragraphe> Filet de boeuf <important>boeuf </important> </paragraphe>
+            </description>
+        </plat>
+        <plat>
+            <partie>Dessert</partie>
+            <prix>8 EUR</prix>
+            <description>
+                <paragraphe> Tarte aux pommes </paragraphe>
+            </description>
+        </plat>
+    </carte>
+    <menus>
+        <menu>
+            <titre>Menu Gourmet</titre>
+            <description>
+                <paragraphe>Un menu complet &#xE0; prix fixe</paragraphe>
+            </description>
+            <prix>45 EUR</prix>
+            <elements>
+                <plat>
+                    <partie>Entr&#xE9;e</partie>
+                    <prix>12 EUR</prix>
+                    <description>
+                        <paragraphe>Salade de ch&#xE8;vre chaud</paragraphe>
+                    </description>
+                </plat>
+                <plat>
+                    <partie>Plat</partie>
+                    <prix>25 EUR</prix>
+                    <description>
+                        <paragraphe>Filet de boeuf</paragraphe>
+                    </description>
+                </plat>
+                <plat>
+                    <partie>Dessert</partie>
+                    <prix>8 EUR</prix>
+                    <description>
+                        <paragraphe>Tarte aux pommes</paragraphe>
+                    </description>
+                </plat>
+            </elements>
+        </menu>
+    </menus>
+</restaurant>

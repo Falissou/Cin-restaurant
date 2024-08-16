@@ -1,0 +1,27 @@
+<!ELEMENT restaurant (coordonnees, descriptions?, carte, menus?)>
+
+<!ELEMENT coordonnees (noms, adresse, restaurateur)>
+<!ELEMENT noms (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT restaurateur (#PCDATA)>
+
+<!ELEMENT descriptions (texte, image*)>
+<!ELEMENT texte (#PCDATA)>
+<!ELEMENT image EMPTY>
+<!ATTLIST image url CDATA #REQUIRED>
+
+<!ELEMENT carte (plat+)>
+<!ELEMENT plat (nom, partie, prix, description?)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT partie (#PCDATA)>
+<!ELEMENT prix (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT menus (menu*)>
+<!ELEMENT menu (titre, description?, prix, elements*)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT elements (element+)>
+<!ELEMENT element (#PCDATA)>
+
+<!-- Exemple de définition d'une entité pour la devise -->
+<!ENTITY % devise "EUR">

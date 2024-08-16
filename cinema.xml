@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<cinema>
+    
+    <!-- Ajoutez ici 4 autres films avec les mêmes balises -->
+<film><titre>zoro</titre><duree>3h</duree><genre>actiona</genre><realisateur>nfdlbn</realisateur><langue>elihl</langue><acteurs><acteur>dljho</acteur></acteurs><annee>jdothirj</annee><notes><presse>jdtoi</presse><spectateurs>dljhro</spectateurs></notes><description>lejtho</description><horaires><horaire><jour>dlhr</jour><seances/></horaire></horaires></film></cinema>
